@@ -1,12 +1,12 @@
 # Simple JWT example with express and passport.js
 
-A very basic implementation of using [Passport](http://www.passportjs.org/) and
-[Express](https://expressjs.com/), demoing a client being issued a JSON Web
-Token (JWT) and then using the token to access otherwise protected resources.
+A very basic implementation of [Passport](http://www.passportjs.org/) and
+[Express](https://expressjs.com/), with a client being issued a JSON Web Token
+(JWT) and then using the token to access otherwise protected resources.
 
-Note that resource.js is an entirely seperate application to `main.js`, however
-it will accept the JWT provided by `main.js` because it has been signed using
-the same `secretOrKey` option.
+Note that `resource.js` is an entirely seperate application to `main.js`,
+however it will accept the JWT provided by `main.js` because it has been signed
+using the same `secretOrKey` option.
 
 ## Requirements
 
