@@ -15,7 +15,7 @@ node.js environment
 ## Usage
 
 1. `> npm install`
-2. `> npm run main.js & npm run resource.js`
+2. `> node main.js & node resource.js`
 3. Browse to localhost:3000
 4. Obtain a token using valid credentials (see fakeDatabase.js).
 5. Token is stored in the DOM.
